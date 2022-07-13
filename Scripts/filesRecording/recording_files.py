@@ -1,6 +1,5 @@
 import csv
 import pandas as pd 
-from pathlib import Path
 
 def save_names(list_names):
     fields = ['nconst', 'qtdMovies','name']
