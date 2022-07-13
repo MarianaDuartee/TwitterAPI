@@ -3,7 +3,7 @@ from apiTwitter import tweets
 from filesRecording import recording_files
 
 def path(file_name):
-    p = r"C:\Users\Mariana Moreira\PycharmProjects\Tema07\venv\Scripts\imdb\files\{}".format(file_name)
+    p = r"{}".format(file_name)
     return p
 
 def names_imdb():
